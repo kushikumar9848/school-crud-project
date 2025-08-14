@@ -1,5 +1,7 @@
 # School CRUD Project
 
+<img width="1907" height="513" alt="Screenshot 2025-08-14 102643" src="https://github.com/user-attachments/assets/38a34803-e4e6-4c3e-a710-f8ddf6254cac" />
+
 A simple School Management (CRUD) application built with:
 - **Backend:** Node.js + Express
 - **Database:** MySQL
@@ -18,8 +20,7 @@ This README explains how to run the project on your **local machine** step-by-st
 - Optional: Python 3 (for simple HTTP server) or `serve` npm package.
 
 ---
-<img width="1907" height="513" alt="Screenshot 2025-08-14 102643" src="https://github.com/user-attachments/assets/38a34803-e4e6-4c3e-a710-f8ddf6254cac" />
-
+ 
 ## 🔽 Step 1 — Clone the repo
 From your terminal / Command Prompt:
 ```bash
@@ -35,4 +36,5 @@ If you want, I’ll also:
 - Prepare 3 ready-made screenshot placeholders and captions you can upload.
 
 Which extra do you want me to do next?
+
 
