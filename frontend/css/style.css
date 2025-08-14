@@ -1,0 +1,122 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+input {
+    margin: 5px;
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+} */
+
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f7f9fc, #e3f2fd);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #1976d2;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input,
+select {
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.5);
+}
+
+/* Buttons */
+button {
+    background: #1976d2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+/* Table Styling */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background: #1976d2;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table Row Hover */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Action Buttons */
+.action-btn {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.edit-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #388e3c;
+}
+
+.delete-btn {
+    background: #e53935;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #b71c1c;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School CRUD App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>School CRUD App</h1>
+    <div>
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="text" id="course" placeholder="Course">
+        <input type="text" id="grade" placeholder="Grade">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="studentsTable"></tbody>
+    </table>
+    <script src="js/script.js"></script>
+</body>
+</html>
